@@ -1,8 +1,12 @@
 # Learn git
 
+Git and Github lesson for a Monkey Bilibili links:
+https://www.bilibili.com/video/BV1HM411377j?spm_id_from=333.788.videopod.sections
+
 ## 1. create a folder as the working directory
 
 ## 2. Setup git configration
+
 ```shell
 git config --global user.name "xxxxx"
 git config --global user.email "xxxx@xxx.com"
@@ -11,6 +15,7 @@ git config --global user.email "xxxx@xxx.com"
 ```
 
 ## 3. Initialize git repository of this working directory
+
 ```shell
 git init
 
@@ -52,8 +57,6 @@ git reflog
 
 ```
 
-
-
 # How to connect with Github repository
 
 1. login github
@@ -65,5 +68,3 @@ git remote add origin https://github.com/zlilianceibs-lab/file-test.git
 git branch -M main
 git push -u origin main
 ```
-
-
