@@ -42,13 +42,10 @@ git commit -m "create readme.md fileco"
 git log --oneline
 
 
-5. goback history - previous version
-git reset xxxxxxx
+5. switch in commit history
+git checkout xxxxxxx
 
-3 options for reset command
-git reset --soft xxxxxx
-git reset --hard xxxxxx
-git reset --mixed xxxxx
+git checkout main (going to the latest commit version at current branch)
 
 
 6. reflog - check what you have done
